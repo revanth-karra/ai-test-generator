@@ -1,13 +1,12 @@
-# Function to greet user
-def greet_user(name):
-    message = "Hello, " + name + "! Welcome to AI Test Generator"
-    return message
+# 1.  Create a list of Test Scenarios
+test_scenarios = ["Login test", "Logout test", "Payment test", "Profile update test"]
 
-# Function to calculate version info
-def get_version_info(version):
-    full_version = "Version " + str(version)
-    return full_version
+# 2. Loop through each scenario
+print("Starting automated test generation...")
+print("_" * 40)
 
+for scenario in test_scenarios:
+    print("Generating test for: " + scenario)
 
-print(greet_user("Revanth"))
-print(get_version_info(1.0))
+print("_" * 40)
+print("All test generated successfully")
