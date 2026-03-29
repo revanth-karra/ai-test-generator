@@ -1,11 +1,13 @@
-# My First Variable
-project_name = "AI Test Generator"
-my_name = "Revanth"
-version = 1.0
-is_ready = True
+# Function to greet user
+def greet_user(name):
+    message = "Hello, " + name + "! Welcome to AI Test Generator"
+    return message
 
-# Print All Variables
-print("Welcome to: " + project_name)
-print("Created by: " + my_name)
-print("Version: ", version)
-print("Is Ready: ", is_ready)
+# Function to calculate version info
+def get_version_info(version):
+    full_version = "Version " + str(version)
+    return full_version
+
+
+print(greet_user("Revanth"))
+print(get_version_info(1.0))
