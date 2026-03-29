@@ -20,6 +20,3 @@ print("_" * 40)
 print("All Test Properties:")
 for key, value in test_case.items():
     print(key + ":", value)
-
-
-
